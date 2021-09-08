@@ -35,12 +35,12 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'fluentd', '>= 1.4'
   spec.add_runtime_dependency 'multi_json', '~> 1.13'
-  spec.add_runtime_dependency 'net-http-persistent', '~> 3.1'
-  spec.add_runtime_dependency 'openid_connect', '~> 1.1.8'
+  spec.add_runtime_dependency 'net-http-persistent', '~> 4.0'
+  spec.add_runtime_dependency 'openid_connect', '~> 1.2'
   spec.add_runtime_dependency 'prometheus-client', '>= 2.1.0'
 
   spec.add_development_dependency 'bundler', '~> 2.0'
-  spec.add_development_dependency 'rake', '>= 12.0'
+  spec.add_development_dependency 'rake', '>= 13.0'
   # required by fluent/test.rb
   spec.add_development_dependency 'minitest', '~> 5.0'
   spec.add_development_dependency 'simplecov', '~> 0.16.1'
